@@ -8,6 +8,8 @@ const ROUTES = {
     login: "/login",
     register: "/register",
     home: "/",
+
+    forgotPassword:"/forgotPassword"
 }
 
 const kPalette = {
