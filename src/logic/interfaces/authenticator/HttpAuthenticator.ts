@@ -1,10 +1,10 @@
 import {IAuthenticator, LoginPayload, LoginResult, ProfilePayload, RegisterPayload, RegisterResult } from "./IAuthenticator"
 import  { AxiosError, AxiosRequestConfig, AxiosResponse, AxiosResponseTransformer } from 'axios';
-import makeRequest from "../../helper/makeRequest";
-import { User } from "../../models/User";
-import appConstants from "../../../constants/constants";
-import { LocalDataRepository } from "../LocalDataRepository";
-import { authErrors, getAuthHeader, removeToken } from "../../helper/auth";
+import makeRequest from "logic/helper/makeRequest";
+import { User } from "logic/models/User";
+import appConstants from "constants/constants";
+import { LocalDataRepository } from "logic/interfaces/LocalDataRepository";
+import { authErrors, getAuthHeader, removeToken } from "logic/helper/auth";
 
 const djangoUserExist = "user with this email address already exists."
 const djangoUserNotFound = "No active account found with the given credentials"

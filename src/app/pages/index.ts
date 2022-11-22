@@ -1,10 +1,21 @@
-import HomePage from "./homePage/HomePage"
-import LoginPage from "./loginPage/LoginPage"
-import RegisterPage from "./registerPage/RegisterPage"
+import {
+    ChangePasswordPage,
+    ForgetPasswordPage,
+    LoginPage,
+    RegisterPage,
+    ResetPasswordPage,
+} from 'app/pages/authPages'
+
+
+import HomePage from "app/pages/homePage/HomePage"
 
 
 export {
     HomePage,
+
     LoginPage,
     RegisterPage,
+    ChangePasswordPage,
+    ResetPasswordPage,
+    ForgetPasswordPage
 }

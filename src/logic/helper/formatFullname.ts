@@ -1,4 +1,4 @@
-import { User } from "../models/User";
+import { User } from "logic/models/User";
 
 
 const formatFullname =  (user : User) => {

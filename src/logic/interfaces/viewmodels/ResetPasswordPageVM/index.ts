@@ -1,8 +1,8 @@
 import { AxiosError, AxiosRequestConfig } from 'axios';
 import { toast } from 'react-toastify';
 import * as Yup from 'yup';
-import { ROUTES } from '../../../../constants/constants';
-import makeRequest from '../../../helper/makeRequest';
+import { ROUTES } from 'constants/constants';
+import makeRequest from 'logic/helper/makeRequest';
 
 class ResetPasswordPageVM{
     initialValues = {oldPassword : "" , newPassword : "" , confirmPassword : ""}

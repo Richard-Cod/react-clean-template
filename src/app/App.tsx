@@ -8,22 +8,18 @@ import {
   Routes,
 } from "react-router-dom";
 
+import { selectHomePageVM } from 'app/redux/features/vms';
+
+import { ChangePasswordPage, ForgetPasswordPage, HomePage, LoginPage, RegisterPage, ResetPasswordPage } from './pages';
+import appConstants, { ROUTES } from 'constants/constants';
+
+import { LocalDataRepository } from 'logic/interfaces/LocalDataRepository';
 
 
-import { selectHomePageVM } from './redux/features/vms';
+import {User} from "logic/models/User"
+import { setUser } from 'app/redux/features/userSlice';
 
-import { HomePage, LoginPage, RegisterPage } from './pages';
-import appConstants, { ROUTES } from '../constants/constants';
-import { DependencyContainer } from '../logic/interfaces/deps';
-import { LocalDataRepository } from '../logic/interfaces/LocalDataRepository';
-
-
-import {User} from "../logic/models/User"
-import { setUser } from './redux/features/userSlice';
-import { useAppDispatch, useAppSelector } from './redux/hooks';
-import ChangePasswordPage from './pages/changePasswordPage/ChangePasswordPage';
-import ForgetPasswordPage from './pages/forgetPasswordPage/ForgetPasswordPage';
-import ResetPasswordPage from './pages/resetPasswordPage/ResetPasswordPage';
+import { useAppDispatch, useAppSelector } from 'app/redux/hooks';
 
 function App() {
   const dispatch = useAppDispatch()

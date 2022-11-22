@@ -1,4 +1,4 @@
-import { Category } from "../../../models/Category";
+import { Category } from "logic/models/Category";
 
 interface ICategoryRepo{
     getCategories() : Promise<Category[] | null>

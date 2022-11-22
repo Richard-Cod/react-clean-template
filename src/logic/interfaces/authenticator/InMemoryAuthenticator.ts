@@ -1,5 +1,5 @@
 import { User } from "../../models/User";
-import { IAuthenticator, LoginPayload, LoginResult, ProfilePayload, RegisterPayload, RegisterResult } from "./IAuthenticator";
+import { IAuthenticator, LoginPayload, LoginResult, ProfilePayload, RegisterPayload, RegisterResult } from "logic/interfaces/authenticator/IAuthenticator";
 
 class InMemoryAuthenticator implements IAuthenticator{
     login(loginPayload: LoginPayload): Promise<LoginResult> {

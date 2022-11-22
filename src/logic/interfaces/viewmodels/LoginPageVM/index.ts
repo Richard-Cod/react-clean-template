@@ -1,9 +1,9 @@
 import * as Yup from 'yup';
-import appConstants from '../../../../constants/constants';
-import { authErrors } from '../../../helper/auth';
-import { LoginPayload } from '../../authenticator/IAuthenticator';
-import { DependencyContainer } from '../../deps';
-import { LocalDataRepository } from '../../LocalDataRepository';
+import appConstants from 'constants/constants';
+import { authErrors } from 'logic/helper/auth';
+import { LoginPayload } from 'logic/interfaces/authenticator/IAuthenticator';
+import { DependencyContainer } from 'logic/interfaces/deps';
+import { LocalDataRepository } from 'logic/interfaces/LocalDataRepository';
 
 class LoginPageVM{
     dependencyContainer : DependencyContainer;

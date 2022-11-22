@@ -1,11 +1,11 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { RootState } from '../store'
-import HomePageVM from '../../../logic/interfaces/viewmodels/HomePageVM'
-import LoginPageVM from '../../../logic/interfaces/viewmodels/LoginPageVM'
-import RegisterPageVM from '../../../logic/interfaces/viewmodels/RegisterPageVM'
-import ForgetPasswordPageVM from '../../../logic/interfaces/viewmodels/ForgetPasswordPage/ForgetPasswordPageVM'
-import ResetPasswordPageVM from '../../../logic/interfaces/viewmodels/ResetPasswordPageVM'
-import ChangePasswordPageVM from '../../../logic/interfaces/viewmodels/ChangePasswordPageVM/ChangePasswordPageVM'
+import { RootState } from 'app/redux/store'
+import HomePageVM from 'logic/interfaces/viewmodels/HomePageVM'
+import LoginPageVM from 'logic/interfaces/viewmodels/LoginPageVM'
+import RegisterPageVM from 'logic/interfaces/viewmodels/RegisterPageVM'
+import ForgetPasswordPageVM from 'logic/interfaces/viewmodels/ForgetPasswordPage/ForgetPasswordPageVM'
+import ResetPasswordPageVM from 'logic/interfaces/viewmodels/ResetPasswordPageVM'
+import ChangePasswordPageVM from 'logic/interfaces/viewmodels/ChangePasswordPageVM/ChangePasswordPageVM'
 
 
 // Define a type for the slice state

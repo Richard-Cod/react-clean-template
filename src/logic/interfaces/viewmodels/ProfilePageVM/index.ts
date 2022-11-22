@@ -1,7 +1,6 @@
 import * as Yup from 'yup';
-import { authErrors } from '../../../helper/auth';
-import { ProfilePayload, RegisterPayload } from '../../authenticator/IAuthenticator';
-import { DependencyContainer } from '../../deps';
+import { ProfilePayload, RegisterPayload } from 'logic/interfaces/authenticator/IAuthenticator';
+import { DependencyContainer } from 'logic/interfaces/deps';
 
 class ProfilePageVM{
     dependencyContainer : DependencyContainer;

@@ -1,7 +1,7 @@
 import { AxiosError, AxiosRequestConfig } from 'axios';
 import { toast } from 'react-toastify';
 import * as Yup from 'yup';
-import makeRequest from '../../../helper/makeRequest';
+import makeRequest from 'logic/helper/makeRequest';
 
 class ForgetPasswordPageVM{
     initialValues = {email : "admin@gmail.com"}

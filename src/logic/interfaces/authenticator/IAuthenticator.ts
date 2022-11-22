@@ -1,4 +1,4 @@
-import { User } from "../../models/User";
+import { User } from "logic/models/User";
 
 export interface LoginResult {
     access : string,

@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import { selectRegisterPageVM } from "../../redux/features/vms";
-import { useAppSelector } from "../../redux/hooks";
+import { selectRegisterPageVM } from "app/redux/features/vms";
+import { useAppSelector } from "app/redux/hooks";
 
 import {  useFormik } from "formik";
-import Input from "../../components/Input";
+import Input from "app/components/Input";
 import {Link} from "react-router-dom"
-import { ROUTES } from "../../../constants/constants";
+import { ROUTES } from "app/../constants/constants";
 
 
 

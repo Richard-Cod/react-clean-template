@@ -1,8 +1,8 @@
 import { useFormik } from 'formik';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ROUTES } from '../../../constants/constants';
-import ResetPasswordPageVM from '../../../logic/interfaces/viewmodels/ResetPasswordPageVM';
-import Input from '../../components/Input';
+import { ROUTES } from 'constants/constants';
+import ResetPasswordPageVM from 'logic/interfaces/viewmodels/ResetPasswordPageVM';
+import Input from 'app/components/Input';
 
 
 const resetPasswordPageVM = new  ResetPasswordPageVM()

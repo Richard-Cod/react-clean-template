@@ -1,8 +1,8 @@
 import { AxiosError, AxiosRequestConfig } from "axios";
-import { getAuthHeader } from "../../../helper/auth";
-import makeRequest from "../../../helper/makeRequest";
-import { Category } from "../../../models/Category";
-import { ICategoryRepo } from "./ICategoryRepo";
+import { getAuthHeader } from "logic/helper/auth";
+import makeRequest from "logic/helper/makeRequest";
+import { Category } from "logic/models/Category";
+import { ICategoryRepo } from "logic/interfaces/repositories/CategoryRepo/ICategoryRepo";
 
 class HttpCategoryRepo implements ICategoryRepo{
   async getCategories(): Promise<Category[] | null> {

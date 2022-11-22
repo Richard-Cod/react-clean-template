@@ -1,9 +1,9 @@
 // import { toast } from 'react-toastify';
-import appConstants from '../../../../constants/constants';
-import { User } from '../../../models/User';
-import { LoginPayload } from '../../authenticator/IAuthenticator';
-import { DependencyContainer } from '../../deps';
-import { LocalDataRepository } from '../../LocalDataRepository';
+import { User } from 'logic/models/User';
+import { LoginPayload } from 'logic/interfaces/authenticator/IAuthenticator';
+
+import { DependencyContainer } from 'logic/interfaces/deps';
+import { LocalDataRepository } from 'logic/interfaces/LocalDataRepository';
 
 
 class HomePageVM{

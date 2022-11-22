@@ -1,8 +1,8 @@
 import { useFormik } from 'formik';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ROUTES } from '../../../constants/constants';
-import ForgetPasswordPageVM from '../../../logic/interfaces/viewmodels/ForgetPasswordPage/ForgetPasswordPageVM';
-import Input from '../../components/Input';
+import { ROUTES } from 'constants/constants';
+import ForgetPasswordPageVM from 'logic/interfaces/viewmodels/ForgetPasswordPage/ForgetPasswordPageVM';
+import Input from 'app/components/Input';
 // import AuthLayout from '../../templates/layout/AuthLayout';
 // import ProfilLayout from '../../templates/layout/ProfilLayout';
 

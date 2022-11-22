@@ -1,5 +1,5 @@
-import appConstants from "../../constants/constants"
-import { LocalDataRepository } from "../interfaces/LocalDataRepository"
+import appConstants from "constants/constants"
+import { LocalDataRepository } from "logic/interfaces/LocalDataRepository"
 
 const removeToken = async () => {
     const ldr = new LocalDataRepository()

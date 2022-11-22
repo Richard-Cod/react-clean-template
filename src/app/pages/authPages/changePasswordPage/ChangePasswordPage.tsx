@@ -1,7 +1,7 @@
 import { useFormik } from 'formik';
-import Input from '../../components/Input';
-import { selectChangePasswordPageVM } from '../../redux/features/vms';
-import { useAppSelector } from '../../redux/hooks';
+import Input from 'app/components/Input';
+import { selectChangePasswordPageVM } from 'app/redux/features/vms';
+import { useAppSelector } from 'app/redux/hooks';
 
 
 function Form() {

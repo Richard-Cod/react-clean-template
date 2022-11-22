@@ -1,4 +1,4 @@
-import httpClient from "../interfaces/httpClient";
+import httpClient from "logic/interfaces/httpClient";
 
 const makeRequest = async (config , handleErrorReponse = (error) => {}) => {
       try {
