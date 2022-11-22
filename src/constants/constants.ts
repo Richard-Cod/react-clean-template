@@ -5,11 +5,13 @@ const appConstants = {
     imgPreview:"data:image/gif;base64,R0lGODdhAQABAPAAAP8AAAAAACwAAAAAAQABAAACAkQBADs="
 }
 const ROUTES = {
-    login: "/login",
-    register: "/register",
     home: "/",
 
-    forgotPassword:"/forgotPassword"
+    register: "/register",
+    login: "/login",
+    changePassword : "/changePassword",
+    forgetPassword : "/forgetPassword",
+    resetPassword : "/resetPassword"
 }
 
 const kPalette = {

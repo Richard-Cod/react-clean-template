@@ -21,6 +21,9 @@ import { LocalDataRepository } from '../logic/interfaces/LocalDataRepository';
 import {User} from "../logic/models/User"
 import { setUser } from './redux/features/userSlice';
 import { useAppDispatch, useAppSelector } from './redux/hooks';
+import ChangePasswordPage from './pages/changePasswordPage/ChangePasswordPage';
+import ForgetPasswordPage from './pages/forgetPasswordPage/ForgetPasswordPage';
+import ResetPasswordPage from './pages/resetPasswordPage/ResetPasswordPage';
 
 function App() {
   const dispatch = useAppDispatch()
@@ -55,8 +58,17 @@ function App() {
     <Router>
         <Routes>
           <Route path={ROUTES.home} element={<HomePage />} />
+
+
           <Route path={ROUTES.login} element={<LoginPage />} />
           <Route path={ROUTES.register} element={<RegisterPage />} />
+          
+          <Route path={ROUTES.changePassword} element={<ChangePasswordPage />} />
+          <Route path={ROUTES.forgetPassword} element={<ForgetPasswordPage />} />
+          <Route path={ROUTES.resetPassword} element={<ResetPasswordPage />} />
+
+
+
         </Routes>
         <ToastContainer />
     </Router>

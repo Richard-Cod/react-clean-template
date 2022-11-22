@@ -32,7 +32,7 @@ function Form({label} : {label : string}) {
             <Input label="Password" name="password" type="password" formik={formik} />
 
             <div className="text-right">
-                <Link className="forgot-link" to={ROUTES.forgotPassword}>Forgot Password ?</Link>
+                <Link className="forgot-link" to={ROUTES.forgetPassword}>Forgot Password ?</Link>
             </div>
             <button 
                 disabled={formik.isSubmitting}
