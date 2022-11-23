@@ -21,6 +21,10 @@ import { setUser } from 'app/redux/features/userSlice';
 
 import { useAppDispatch, useAppSelector } from 'app/redux/hooks';
 
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
   const dispatch = useAppDispatch()
   const homePageVM = useAppSelector(selectHomePageVM)

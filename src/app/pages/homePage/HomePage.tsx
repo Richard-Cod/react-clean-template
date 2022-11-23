@@ -8,8 +8,10 @@ function HomePage() {
   return (
     <div>
       <Navbar />
-      <CategoriesList />
-      <FilterButton />
+      <div className="flex justify-between  pl-4 pr-10">
+        <CategoriesList />
+        <FilterButton />
+      </div>
       <ItemCardList />
       <Footer />
     </div>

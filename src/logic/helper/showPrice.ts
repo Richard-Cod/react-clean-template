@@ -1,5 +1,5 @@
 const showPrice = (price:any) => {
-    return `€ ${price}`
+    return `${price} Fcfa`
 }
 
 export {showPrice}
